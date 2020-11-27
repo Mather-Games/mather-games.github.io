@@ -8,7 +8,12 @@
 		<meta name="author" content="Mather">
 		<link rel="shortcut icon" type="image/x-icon" href="https://mather-games.github.io/favicon.png">
 		<link rel="stylesheet" type="text/css" href="https://mather-games.github.io/Styles.css">
-    <script type="text/javascript" src="Main.js"></script>
+    <script type="text/javascript">
+      function Add_code() {
+        var Text = document.getElementsByName('Code')
+        document.body.innerHTML = document.body.innerHTML + Text.textContent
+      }
+    </script>
   </head>
   <body>
     <textarea name="Code" rows="50" cols="50"></textarea>

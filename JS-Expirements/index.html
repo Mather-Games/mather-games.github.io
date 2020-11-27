@@ -8,7 +8,15 @@
 		<meta name="author" content="Mather">
 		<link rel="shortcut icon" type="image/x-icon" href="https://mather-games.github.io/favicon.png">
 		<link rel="stylesheet" type="text/css" href="https://mather-games.github.io/Styles.css">
-    <script type="text/javascript" src="Main.js"></script>
+    <script type="text/javascript">
+      function Change_page() {
+        document.body.innerHTML = document.body.innerHTML + "<p> Webpage changed </p> \n <button onclick="Change_page_again()"> Click here to change it again</button>"
+        console.log("Web page changed");
+      }
+      function Change_page_again() {
+        document.body.innerHTML = document.body.innerHTML + "<p> You have once again changed the page </p>"
+      }
+    </script>
   </head>
   <body>
     <h1>Everything here is expiremental.</h1>
