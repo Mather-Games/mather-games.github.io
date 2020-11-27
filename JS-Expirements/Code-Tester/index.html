@@ -10,8 +10,8 @@
 		<link rel="stylesheet" type="text/css" href="https://mather-games.github.io/Styles.css">
     <script type="text/javascript">
       function Add_code() {
-        console.log("OUT OF ORDER");
-        document.body.innerHTML += "<h1> OUT OF ORDER </h1>"
+        var T = getElementByName('Code').val
+        document.body.innerHTML += T
       }
     </script>
   </head>
@@ -20,6 +20,7 @@
       <textarea name="Code" rows="50" cols="50"></textarea>
       <br>
       <button type="button" onclick="Add_code()">Add code to page</button>
+      <p>STILL IN DEVELOPMENT!</p>
     </div>
   </body>
 </html>
