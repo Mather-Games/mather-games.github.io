@@ -10,8 +10,9 @@
 		<link rel="stylesheet" type="text/css" href="https://mather-games.github.io/Styles.css">
     <script type="text/javascript">
       function Add_code() {
-        var Text = document.getElementsById('Code');
-        document.body.innerHTML = document.body.innerHTML + Text.value;
+        var text = document.getElementsById('Code').value;
+        document.body.innerHTML = document.body.innerHTML + text;
+        console.log(text);
       }
     </script>
   </head>
