@@ -10,14 +10,14 @@
 		<link rel="stylesheet" type="text/css" href="https://mather-games.github.io/Styles.css">
     <script type="text/javascript">
       function Add_code() {
-        var text = document.getElementsById('Code').value;
+        var text = document.getElementsByName('Code').value;
         document.body.innerHTML = document.body.innerHTML + text;
         console.log(text);
       }
     </script>
   </head>
   <body>
-    <textarea id="Code" rows="50" cols="50"></textarea>
+    <textarea name="Code" rows="50" cols="50"></textarea>
     <button type="button" onclick="Add_code()">Add code to page</button>
   </body>
 </html>
