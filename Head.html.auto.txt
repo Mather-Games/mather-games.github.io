@@ -1,9 +1,8 @@
-<title>Mather Games - Godot Game Development</title>
 <meta name="viewport" content="initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="assets/player/styles.css">\
 <meta name="description" content="Everything Mather">
 <meta name="keywords" content="Games, Mather, Fun, Indie, Godot, Development">
 <meta name="author" content="Mather">
-<link rel="icon" type="image/x-icon" href="https://mather-games.github.io/Static/Images/favicon.png">
+<link rel="icon" type="image/x-icon" href="https://mather-games.github.io/sttc/imgs/lgo.png">
 <link rel="shortcut icon" type="image/x-icon" href="https://mather-games.github.io/Static/Images/favicon.png">
